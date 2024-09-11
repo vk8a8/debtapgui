@@ -1,7 +1,7 @@
 # Maintainer: vk8a8 <vk8a8@protonmail.com>
 pkgname=debtapgui
-pkgver=1.0
-pkgrel=2
+pkgver=1.1
+pkgrel=1
 pkgdesc="QT Frontend for Debtap"
 arch=('any')
 depends=('bash' 'qt6-base' 'debtap')
@@ -27,8 +27,8 @@ package() {
 }
 
 md5sums=('f028fcb576aa66a794a4fd22845980af'
-         'bf4599307e51c9304217bffed8a86dc2'
+         'aac768f583299e46c6c7e81106866b1c'
          '46d5fa8f4492f6448e90453c5377b045'
          '9a24fa22f2d2ce6b8a0bb9d56c0e3237'
          '4257ff35c27c4d9f65a0eb38c0afc6d3'
-         '989ff0a3c35419c100ad4ad03a072cca')
+         '55b7db2627829fabfd733c317b740d32')
