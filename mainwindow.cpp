@@ -40,9 +40,6 @@ void MainWindow::onReadyReadStandardOutput()
 
 void MainWindow::on_startBtn_clicked()
 {
-/*	std::string command = "/usr/share/debtapgui/debtapgui.sh " + filePath;
-	std::cout << filePath << std::endl;
-	process->start(QString::fromStdString(command)); */
 	process->start("/usr/share/debtapgui/debtapgui.sh", QStringList() << QString::fromStdString(filePath));
 }
 
