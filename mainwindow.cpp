@@ -41,7 +41,7 @@ void MainWindow::onReadyReadStandardOutput()
 
 void MainWindow::on_startBtn_clicked()
 {
-	std::string command = "sh /usr/share/debtapgui/debtapgui.sh " + filePath;
+	std::string command = "/usr/share/debtapgui/debtapgui.sh " + filePath;
 	std::cout << filePath << std::endl;
 	process->start(QString::fromStdString(command));
 }
