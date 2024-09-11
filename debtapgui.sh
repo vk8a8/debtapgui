@@ -27,6 +27,4 @@ rm -r pkgtarzstgetname
 
 pkexec pacman --noconfirm -U $FILEDIR/$TARZSTNAME
 
-echo $TARZSTNAME
-
 echo "Installation complete"
