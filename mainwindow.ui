@@ -43,10 +43,10 @@
    <widget class="QTextBrowser" name="outBrowser">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>120</y>
-      <width>256</width>
-      <height>192</height>
+      <x>10</x>
+      <y>80</y>
+      <width>781</width>
+      <height>471</height>
      </rect>
     </property>
    </widget>
@@ -55,12 +55,12 @@
      <rect>
       <x>100</x>
       <y>20</y>
-      <width>58</width>
-      <height>18</height>
+      <width>691</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>deb file</string>
     </property>
    </widget>
   </widget>
