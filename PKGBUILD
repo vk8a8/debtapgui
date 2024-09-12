@@ -1,7 +1,7 @@
 # Maintainer: vk8a8 <vk8a8@protonmail.com>
 pkgname=debtapgui
 pkgver=1.1
-pkgrel=1
+pkgrel=2
 pkgdesc="QT Frontend for Debtap"
 arch=('x86_64')
 url='https://github.com/vk8a8/debtapgui'
