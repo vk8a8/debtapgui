@@ -6,7 +6,6 @@ FILEDIR=$(echo $1 | rev | sed 's:/: :' | rev | awk '{print $1}')
 
 debtap -Q $FILE
 cd $FILEDIR
-echo $FILEDIR
 mkdir pkgtarzstgetname
 
 CONTROLBALL=$(ar t $FILENAME | grep control)
