@@ -3,7 +3,6 @@
 #include <QFileDialog>
 #include <QProcess>
 #include <QStringList>
-#include <fmt/core.h>
 
 std::string popenToStr(const char* cmd) { // stackoverflow 478898
 	std::array<char, 128> buffer;
